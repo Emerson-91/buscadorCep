@@ -26,6 +26,8 @@ export default function App() {
       
     }catch(error){
       console.log("Erro" + error)
+      Alert.alert("Cep inválido!")
+      limparDados()
     }
   }
   function limparDados(){
