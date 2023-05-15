@@ -41,7 +41,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar backgroundColor='#018786' />
       <View style={styles.topBar}>
-        <Text style={styles.title}>Buscador de CEP</Text>
+        <Text style={styles.title}>Consulta de CEP</Text>
       </View>
       <View style={styles.containerCep}>
         <TextInput
